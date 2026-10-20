@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: system-ui, sans-serif;
+}
+caption {
+    text-align: left;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+th, td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dde1ea;
+    text-align: left;
+}
+
+thead th {
+    background-color: rgb(87, 195, 241);
+}
+
+tbody tr:nth-child(even) {
+    background: #7b9eee;
+}
+
+tbody tr:hover {
+    background: #7b3ae4;
+}
+
+.numero {
+    text-align: right;
+}
+.tabla-contenedor {
+    overflow-x: auto;
+}
